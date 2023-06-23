@@ -8,7 +8,7 @@ pipeline {
                 cleanWs()
                 
                 // Checkout the Git repository
-                git branch: 'master', url: 'https://github.com/jetopsB055/code'
+                git branch: 'main', url: 'https://github.com/jetopsB055/code'
             }
         }
         
